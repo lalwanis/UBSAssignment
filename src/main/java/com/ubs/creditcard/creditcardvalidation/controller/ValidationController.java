@@ -53,8 +53,6 @@ public class ValidationController {
     public String checkCardNumber(@PathVariable("card") String inputCard) {
 
         String validation = getValidation(inputCard);
-        if (validation == null)
-            return "Error: Enter 16 digit Credit Card Number in xxxx xxxx xxxx xxxx or xxxx-xxxx-xxxx-xxxx  or xxxxxxxxxxxxxxxx format";
 
         return validation;
     }
@@ -70,7 +68,7 @@ public class ValidationController {
 
         //Check if it is a valid creditcard number format with number and space or -  or just the number only
         if(!( isCreditCardNumberInCorrectFormat(inputCard) || isSixteenDigitInput(inputCard))){
-            return null;
+            return "Error: Enter 16 digit Credit Card Number in xxxx xxxx xxxx xxxx or xxxx-xxxx-xxxx-xxxx  or xxxxxxxxxxxxxxxx format";
         }
 
         // Remove spaces and non-digit characters
