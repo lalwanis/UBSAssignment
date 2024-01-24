@@ -4,7 +4,10 @@
 > This RESTful API application helps validate Credit Card using Luhn's Algorithm
 
 ### How to use this application
-> Download the application from 
+> Download the application from https://github.com/lalwanis/UBSAssignment/tree/master
+> 
+> From Local IntelliJ or Eclipse Editor (assuming it is setup correctly)
+> 
 > 
 > -
 > 
