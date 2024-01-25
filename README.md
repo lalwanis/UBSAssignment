@@ -29,7 +29,7 @@
   * To test multiple in one go `/validation/cards`
   * If you enter invalid format then you get following message: 
     * `"Error: Enter 16 digit Credit Card Number in xxxx xxxx xxxx xxxx or xxxx-xxxx-xxxx-xxxx  or xxxxxxxxxxxxxxxx format"`
-  * if you enter invalid card number or a valid card number you get following message:
+  * If you enter valid card number or an invalid card number you get following message:
     * `"Credit Card is valid."`
     * `"Credit Card is not valid."`
 
