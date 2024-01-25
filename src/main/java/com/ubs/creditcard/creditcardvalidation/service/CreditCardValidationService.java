@@ -30,7 +30,7 @@ public class CreditCardValidationService {
             if (i % 2 == 1) {
                 digit *= 2;
 
-                // If doubling results in a two-digit number, subtract 9
+                // Instead of adding the two digits if > 9 we can subtract 9 from the number to get the same result
                 if (digit > 9) {
                     digit -= 9;
                 }
