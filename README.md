@@ -1,6 +1,5 @@
 # Getting Started
-
-### About 
+ 
 > This RESTful API application helps validate Credit Card using Luhn's Algorithm
 
 ### How to use this application
