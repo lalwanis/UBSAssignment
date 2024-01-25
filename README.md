@@ -6,6 +6,7 @@
 * Download the application from https://github.com/lalwanis/UBSAssignment/tree/master
 * From Local IntelliJ or Eclipse Editor (assuming it is setup correctly with Java 17), Run Mvn clean,build and create executable Jar CreditCardValidation-1.0.0.jar (under the target directory)
 * In case you are unable to do that you can download this jar from https://github.com/lalwanis/UBSAssignment/tree/master/target
+* I have also included `ValidationControllerWithoutSpringFramework` class in case you want to invoke validations directly through another application
 
 
 ### Steps to start the application
